@@ -1,5 +1,7 @@
 # Mercify Music Search Engine
 
+![Screenshot 2024-07-18 at 9 31 50 AM](https://github.com/user-attachments/assets/a75aaa8a-e9bf-4860-ac5a-0430a0bd5e5d)
+
 Utilizing the functionality of React + Vite, this application is able to fetch song data from the Freesound API and display it in search-engine format. It allows a user to search songs based on their input, view a list of songs, and view the data that comes along with them. A playlist is also available to the user if they choose to add songs to it, and multiple fields display song data and details.
 
 All information on the Freesound API is included in their [Documentation](https://freesound.org/docs/api/).
