@@ -1,0 +1,161 @@
+h1 {
+  font-size: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.webpage-flexbox {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.search-results-aside {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 40%;
+}
+
+.content-flexbox {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 25px;
+  gap: 20px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.input {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.add-to-playlist-button {
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(61, 105, 61);
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgb(153, 228, 164);
+}
+
+.search-button {
+  border: none;
+  background-color: rgb(15, 112, 172);
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+.song-results {
+  list-style: none;
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    margin: 10px;
+  }
+}
+
+.list-position {
+  list-style-type: none;
+  padding: 20px;
+  border-bottom: 1px solid black;
+
+}
+
+.before-search {
+  display: none;
+}
+
+.placeholder-div-flexbox {
+  display: flex;
+  align-content: center;
+}
+
+.default-text {
+  font-size: 40px;
+  color: rgb(162, 162, 162);
+  font-weight: 600;
+  position: fixed;
+  bottom: 65%;
+  left: 55%;
+}
+
+.null-data-border {
+  border: 1px solid black;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 39.9%;
+}
+
+/* AFTER SEARCH */
+
+.after-search {
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  font-size: 120%;
+  margin: 25px;
+  margin-top: 50px;
+  height: 100%;
+  h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 23px;
+  }
+}
+
+.description {
+  width: 80%;
+}
+
+.audio-display {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.data-display {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    img {
+      width: 150px;
+      height: auto;
+    }
+  }
+}
+
+.selected {
+  background-color: rgb(153, 228, 164);;
+}
+
