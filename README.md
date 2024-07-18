@@ -22,9 +22,9 @@ Main features include:
   2. A button to play the selected song
   3. A button to download the MP3 file of the song
   4. A playlist in the bottom-right corner where a user can:
-     ..a. View their playlist
-     ..b. Click and play selected songs from the playlist
-     ..c. Click and view the details panel on the song that's currently playing
-     ..d. View upcoming and currently playing songs
+     1. View their playlist
+     2. Click and play selected songs from the playlist
+     3. Click and view the details panel on the song that's currently playing
+     4. View upcoming and currently playing songs
 
 
