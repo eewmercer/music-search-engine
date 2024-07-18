@@ -2,6 +2,8 @@
 
 Utilizing the functionality of React + Vite, this application is able to fetch song data from the Freesound API and display it in search-engine format. It allows a user to search songs based on their input, view a list of songs, and view the data that comes along with them. A playlist is also available to the user if they choose to add songs to it, and multiple fields display song data and details.
 
+All information on the Freesound API is included in their [Documentation](https://freesound.org/docs/api/).
+
 Main features include:
 - Searchability of user input
 - A results list displaying all songs related to the user's search
